@@ -1,0 +1,1 @@
+"C:\Python312\python.exe" "C:\Users\Klins\PycharmProjects\WebScrapping\scrapping.py"

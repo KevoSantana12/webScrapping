@@ -7,6 +7,7 @@ import os as os
 import pandas as pd
 import sys
 
+#Esta es la ruta ejecutable del python
 aplicacion_ruta = os.path.dirname(sys.executable)
 now = datetime.now()
 mes_dia_anio = now.strftime("%m%d%Y")
@@ -37,7 +38,7 @@ for container in containers:
         titulos.append(titulo)
         links.append(link)
         print(link)
-    except :
+    except:
         print("////////////////No se encontro un link en el elemento numero: ", contador)
         continue
 
